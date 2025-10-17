@@ -2,9 +2,11 @@
 # 📊 DATA PROCESSING & ANALYSIS
 # ---------------------------------------------
 # pandas==1.5.3          # Data manipulation and analysis — core for working with tabular data
-pandas==2.1.0           # New version of pandas
+# pandas==2.1.0           # New version of pandas
+pandas==2.0.3           # compatibility update
 #numpy==1.24.3          # Numerical operations, arrays, and matrix support (used by almost all ML libraries)
-numpy==1.26.0           # New verion of numpy
+# numpy==1.26.0           # New verion of numpy
+numpy==1.25.0              # compatibility update
 # ---------------------------------------------
 # 🧠 MACHINE LEARNING
 # ---------------------------------------------
