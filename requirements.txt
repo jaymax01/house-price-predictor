@@ -1,18 +1,21 @@
 # ---------------------------------------------
 # 📊 DATA PROCESSING & ANALYSIS
 # ---------------------------------------------
-pandas==1.5.3          # Data manipulation and analysis — core for working with tabular data
+# pandas==1.5.3          # Data manipulation and analysis — core for working with tabular data
+pandas==2.1.0           # New version of pandas
 #numpy==1.24.3          # Numerical operations, arrays, and matrix support (used by almost all ML libraries)
 numpy==1.26.0           # New verion of numpy
 # ---------------------------------------------
 # 🧠 MACHINE LEARNING
 # ---------------------------------------------
-scikit-learn==1.4.2    # Classic ML models (regression, classification, clustering), preprocessing, model evaluation
+# scikit-learn==1.4.2    # Classic ML models (regression, classification, clustering), preprocessing, model evaluation
+scikit-learn==1.3.0       # New version of scikit-learn
 xgboost==1.7.5
 # ---------------------------------------------
 # 📈 VISUALIZATION
 # ---------------------------------------------
-matplotlib==3.7.1      # Base library for plotting graphs, charts, and visualizations
+# matplotlib==3.7.1      # Base library for plotting graphs, charts, and visualizations
+matplotlib==3.7.2       # New version of matplotlib
 seaborn==0.12.2        # High-level interface for drawing attractive and informative statistical graphics (built on matplotlib)
 
 # ---------------------------------------------
@@ -23,18 +26,22 @@ mlflow==2.3.1          # End-to-end ML lifecycle tracking, including experiment 
 # ---------------------------------------------
 # ✅ TESTING
 # ---------------------------------------------
-pytest==7.3.1          # Python testing framework — great for writing unit tests for ML pipelines, data validation, etc.
+# pytest==7.3.1          # Python testing framework — great for writing unit tests for ML pipelines, data validation, etc.
+pytest==7.4.0           # New version of pytest
 
 # ---------------------------------------------
 # ⚡ API DEVELOPMENT (FOR MODEL SERVING)
 # ---------------------------------------------
-fastapi==0.95.2        # Lightweight, high-performance web framework for serving ML models via REST APIs
-uvicorn==0.22.0        # ASGI server for running FastAPI apps — lightweight and fast
+# fastapi==0.95.2        # Lightweight, high-performance web framework for serving ML models via REST APIs
+fastapi==0.104.1        # New version of fastapi
+# uvicorn==0.22.0        # ASGI server for running FastAPI apps — lightweight and fast
+uvicorn==0.24.0         # New version of unicorn
 #
 # ---------------------------------------------
 #  MISC
 # ---------------------------------------------
-pyyaml==6.0
+# pyyaml==6.0
+pyyaml==6.0.1             # New version of pyyaml
 joblib==1.3.1
 setuptools==65.5.0
 ipykernel==6.29.5
