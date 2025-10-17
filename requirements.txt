@@ -3,33 +3,35 @@
 # ---------------------------------------------
 # pandas==1.5.3          # Data manipulation and analysis — core for working with tabular data
 # pandas==2.1.0           # New version of pandas
-pandas==2.0.3           # compatibility update pandas
+pandas==2.1.3           # compatibility update pandas
 #numpy==1.24.3          # Numerical operations, arrays, and matrix support (used by almost all ML libraries)
 # numpy==1.26.0           # New verion of numpy
-numpy==1.25.0              # compatibility update numpy
+numpy==1.26.0              # compatibility update numpy
 # ---------------------------------------------
 # 🧠 MACHINE LEARNING
 # ---------------------------------------------
 # scikit-learn==1.4.2    # Classic ML models (regression, classification, clustering), preprocessing, model evaluation
-scikit-learn==1.3.0       # New version of scikit-learn
-xgboost==1.7.5
+scikit-learn==1.3.2       # New version of scikit-learn
+# xgboost==1.7.5
+xgboost==1.7.6   # compatibility version update xgboost
 # ---------------------------------------------
 # 📈 VISUALIZATION
 # ---------------------------------------------
 # matplotlib==3.7.1      # Base library for plotting graphs, charts, and visualizations
-matplotlib==3.7.2       # New version of matplotlib
-seaborn==0.12.2        # High-level interface for drawing attractive and informative statistical graphics (built on matplotlib)
-
+matplotlib==3.8.0       # New version of matplotlib
+# seaborn==0.12.2        # High-level interface for drawing attractive and informative statistical graphics (built on matplotlib)
+seaborn==0.13.0         # compatibility version seaborn
 # ---------------------------------------------
 # 📦 EXPERIMENT TRACKING & MODEL MANAGEMENT
 # ---------------------------------------------
-mlflow==2.3.1          # End-to-end ML lifecycle tracking, including experiment tracking, model packaging, and deployment
+# mlflow==2.3.1          # End-to-end ML lifecycle tracking, including experiment tracking, model packaging, and deployment
+mlflow==2.10.0      # compatibility version mlflow
 
 # ---------------------------------------------
 # ✅ TESTING
 # ---------------------------------------------
 # pytest==7.3.1          # Python testing framework — great for writing unit tests for ML pipelines, data validation, etc.
-pytest==7.4.0           # New version of pytest
+pytest==7.4.3           # New version of pytest
 
 # ---------------------------------------------
 # ⚡ API DEVELOPMENT (FOR MODEL SERVING)
