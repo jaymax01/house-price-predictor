@@ -47,7 +47,8 @@ uvicorn==0.24.0         # New version of unicorn
 # pyyaml==6.0
 pyyaml==6.0.1             # New version of pyyaml
 joblib==1.3.1
-setuptools==65.5.0
+# setuptools==65.5.0
+setuptools>=69.0.3          # New version for compatiblity
 ipykernel==6.29.5
 
 
